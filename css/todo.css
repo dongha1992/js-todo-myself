@@ -44,6 +44,8 @@ body {
   color: white;
   transform: translateY(150px);
   position: absolute;
+  font-weight: 800;
+  font-size: 20px;
 }
 .tem-container {
   cursor: pointer;
