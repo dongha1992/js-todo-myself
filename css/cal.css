@@ -77,7 +77,7 @@ body {
   width: 840px;
   height: 490px;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .calendar .right-side,
