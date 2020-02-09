@@ -5,10 +5,8 @@
 }
 
 body {
-  /*
   background: linear-gradient(#d3959b, #bfe6ba);
-  */
-  color: white;
+
   font-family: "Montserrat", sans-serif;
   height: 100vh;
   min-width: 640px;
@@ -118,7 +116,7 @@ body {
 .js-toDoList {
   list-style: none;
 }
-
+/*
 .bg {
   background-position: center;
   background-size: 100%;
@@ -146,3 +144,4 @@ body {
   position: relative;
   z-index: 2;
 }
+*/
