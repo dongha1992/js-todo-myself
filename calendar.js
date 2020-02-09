@@ -27,6 +27,7 @@ class CALENDAR {
       eventAddBtn: this.getFirstElementInsideIdByClassName(
         "add-event-day-field-btn"
       ),
+
       currentDay: this.getFirstElementInsideIdByClassName(
         "calendar-left-side-day"
       ),
@@ -70,6 +71,7 @@ class CALENDAR {
       "There is not any events"
     ];
     let eventTemplate = "";
+
     eventList.forEach(item => {
       eventTemplate += `<li>${item}</li>`;
     });
@@ -227,7 +229,21 @@ class CALENDAR {
     });
 
     this.elements.eventEnter.addEventListener("submit", e => {
+      /*
       let fieldValue = this.elements.eventField.value;
+      if (!fieldValue) return false;
+      let dateFormatted = this.getFormattedDate(new Date(this.date));
+      if (!this.eventList[dateFormatted]) this.eventList[dateFormatted] = [];
+      this.eventList[dateFormatted].push(fieldValue);
+      localStorage.setItem(localStorageName, JSON.stringify(this.eventList));
+      this.elements.eventField.value = "";
+      this.drawAll();
+    });
+  }
+*/
+
+      let fieldValue = this.elements.eventField.value;
+
       if (!fieldValue) return false;
       let dateFormatted = this.getFormattedDate(new Date(this.date));
       if (!this.eventList[dateFormatted]) this.eventList[dateFormatted] = [];

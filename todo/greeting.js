@@ -10,6 +10,7 @@ function saveName(text) {
 }
 function askForName(event) {
   form.classList.add(SHOWING_CN);
+
   form.addEventListener("submit", handleSubmit);
 }
 

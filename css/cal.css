@@ -109,6 +109,7 @@ body {
 .calendar .current-day-events li {
   padding: 2px 0px;
 }
+
 .calendar .current-day-events ul li::before {
   content: "-";
   position: absolute;

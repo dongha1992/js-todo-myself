@@ -12,7 +12,7 @@ function delteToDos(event) {
   const cleanToDos = toDos.filter(function(toDo) {
     return toDo.id !== parseInt(li.id);
   });
-  toDos = cleanToDos;
+  const toDos = cleanToDos;
   saveToDos();
 }
 
